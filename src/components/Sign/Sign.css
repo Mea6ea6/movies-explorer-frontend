@@ -1,0 +1,142 @@
+.sign {
+    min-height: 100vh;
+    width: 396px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign__logo {
+    margin: 0 auto 0 0;
+}
+.sign__welcome {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 40px auto 62px 0;
+}
+.sign__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.sign__field {
+    position: relative;
+}
+.sign__field-name {
+    color: #8B8B8B;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+    top: -24px;
+    left: 0;
+}
+.sign__input {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    background: #2F2F2F;
+    width: 396px;
+    height: 46px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.sign__input_error {
+    color: #EE3465;
+}
+.sign__error {
+    color: #EE3465;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.sign__button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    background: #4285F4;
+    border: none;
+    padding: 14px 0;
+    border-radius: 3px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sign__button:hover {
+    opacity: 80%;
+}
+.sign__caption {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 16px auto 0;
+}
+.sign__caption-text {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0;
+}
+.sign__caption-link {
+    color: #4285F4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    margin: 0;
+    transition: 0.3s;
+}
+.sign__caption-link:hover {
+    opacity: 70%;
+}
+@media screen and (max-width: 767px) {
+    .sign {
+        width: 260px;
+        display: block;
+        padding: 56px 0 30px;
+        box-sizing: border-box;
+    }
+    .sign__logo {
+        margin: 0;
+    }
+    .sign__welcome {
+        font-size: 24px;
+        line-height: 29px;
+        margin: 50px 0 82px 0;
+    }
+    .sign__input {
+        width: 260px;
+        height: 46px
+    }
+    .sign__button {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 150px;
+    }
+    .sign__caption-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .sign__caption-link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

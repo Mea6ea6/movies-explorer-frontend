@@ -1,0 +1,22 @@
+.content {
+    width: 100%;
+    flex: 1;
+}
+.content__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 1279px) {
+    .content__container {
+        max-width: 708px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .content__container {
+        max-width: 292px;
+    }
+}
