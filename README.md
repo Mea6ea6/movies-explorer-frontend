@@ -10,7 +10,7 @@ __Полезное:__
 
 
 __Запуск проекта__  
-`npm run dev` — запускает сборки с hot-reload  
+`npm run dev` — запускает сборку с hot-reload  
 
 
 __Инструменты и стек:__ #JS #ReactJS #NodeJS #Git

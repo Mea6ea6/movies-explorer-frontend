@@ -49,6 +49,9 @@
     outline: none;
     border-radius: 8px;
 }
+.sign__input:focus {
+    border: 1px solid #4285F4;
+}
 .sign__input_error {
     color: #EE3465;
 }

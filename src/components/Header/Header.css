@@ -160,7 +160,10 @@
         transition: 0.3s;
         position: relative;
     }
-    .header__nav-link_acive::after {
+    .header__nav-link_active {
+        font-weight: 400;
+    }
+    .header__nav-link_active::after {
         content: "";
         position: absolute;
         background: #fff;
@@ -205,7 +208,7 @@
         transition: 0.3s;
         position: relative;
     }
-    .header__nav-link_acive::after {
+    .header__nav-link_active::after {
         content: "";
         position: absolute;
         background: #fff;

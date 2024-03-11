@@ -46,6 +46,12 @@
     background: none;
     border: none;
     outline: none;
+    padding: 6px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.profile__field-input:focus {
+    outline: 1px solid #3456F3;
 }
 .profile__line {
     background: #424242;

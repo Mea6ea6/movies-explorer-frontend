@@ -4,7 +4,7 @@ import SearchForm from "../SearchForm/SearchForm";
 import MoviesCard from "../MoviesCard/MoviesCard";
 
 export default function SavedMovies(props) {
-  const {loggedIn} = props;
+  const { loggedIn } = props;
   return (
     <main className="content">
       <div className="content__container">

@@ -28,6 +28,9 @@
     padding: 0 46px 0 22px;
     box-sizing: border-box;
 }
+.search__input:focus {
+    border: 1px solid #4285F4;
+}
 .search__button {
     height: 34px;
     width: 34px;
@@ -51,16 +54,20 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 }
 .search__toggle-box {
     width: 36px;
     height: 20px;
     display: block;
-    background: #2be080;
+    background: #343434;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
     transition: 0.5s;
+}
+.search__toggle-box_active {
+    background: #2be080;
 }
 .search__toggle-input {
     display: none;
@@ -70,10 +77,14 @@
     width: 16px;
     height: 16px;
     left: 0px;
-    background: #fff;
+    background: #a0a0a0;
     border-radius: 50%;
     margin: 2px;
     transition: 0.5s;
+    transform: translateX(0);
+}
+.search__toggle-circle_active {
+    background: #fff;
     transform: translateX(16px);
 }
 .search__toggle-text {
