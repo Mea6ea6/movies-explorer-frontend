@@ -104,7 +104,12 @@
     }
     .about-me__image {
         height: 352px;
-        width: 100%;
+        width: 292px;
         margin: 0 0 40px;
+    }
+}
+@media screen and (max-width: 424px) {
+    .about-me__image {
+        width: 100%;
     }
 }

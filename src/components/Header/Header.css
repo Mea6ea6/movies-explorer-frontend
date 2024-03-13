@@ -1,6 +1,7 @@
 .header {
     max-width: 1140px;
     width: 100%;
+    box-sizing: border-box;
     padding: 18px 0;
     display: flex;
     align-items: center;
@@ -190,7 +191,8 @@
 }
 @media screen and (max-width: 767px) {
     .header {
-        max-width: 292px;
+        width: 100%;
+        padding: 18px 20px;
     }
     .header__burger-box {
         background: transparent;
@@ -243,5 +245,11 @@
     .header__burger-layer {
         width: 22px;
         height: 2.5px;
+    }
+}
+@media screen and (max-width: 424px) {
+    .header {
+        max-width: 292px;
+        padding: 18px 0;
     }
 }

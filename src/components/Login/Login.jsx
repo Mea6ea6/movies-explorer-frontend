@@ -8,7 +8,9 @@ export default function Login() {
   return (
     <main className="content">
       <section className="sign">
-        <img className="sign__logo" src={signLogoImage} alt="movies" />
+        <NavLink className="sign__logo-link" to="/">
+          <img className="sign__logo" src={signLogoImage} alt="movies" />
+        </NavLink>
         <h1 className="sign__welcome">Рады видеть!</h1>
         <form className="sign__form" action="POST">
           <label className="sign__field">

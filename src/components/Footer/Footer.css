@@ -2,6 +2,7 @@
     max-width: 1140px;
     width: 100%;
     background: #202020;
+    box-sizing: border-box;
     padding: 80px 0 20px;
     flex-shrink: 0;
 }
@@ -54,7 +55,8 @@
 }
 @media screen and (max-width: 767px) {
     .footer {
-        max-width: 292px;
+        max-width: 100%;
+        padding: 80px 20px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -79,5 +81,11 @@
     .footer__copy {
         font-size: 12px;
         color: #8B8B8B;
+    }
+}
+@media screen and (max-width: 424px) {
+    .footer {
+        max-width: 292px;
+        padding: 80px 0 20px;
     }
 }

@@ -101,12 +101,17 @@
 }
 @media screen and (max-width: 767px) {
     .movies-card__box {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 340px);
         gap: 14px;
         padding: 40px 0 26px;
     }
     .movies-card__delete {
         opacity: 1;
         pointer-events: all;
+    }
+}
+@media screen and (max-width: 424px) {
+    .movies-card__box {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
