@@ -1,0 +1,11 @@
+.section-line {
+    height: 1px;
+    width: 100%;
+    background: #DADADA;
+    margin-top: 23px;
+}
+@media screen and (max-width: 767px) {
+    .section-line {
+        margin-top: 28px;
+    }
+}

@@ -1,1 +1,16 @@
-# movies-explorer-frontend
+# Дипломная работа 
+
+__Название:__ «Movies Explorer»  
+
+------
+
+__Полезное:__  
+
+- название макета: dark-3
+
+
+__Запуск проекта__  
+`npm run dev` — запускает сборку с hot-reload  
+
+
+__Инструменты и стек:__ #JS #ReactJS #NodeJS #Git
